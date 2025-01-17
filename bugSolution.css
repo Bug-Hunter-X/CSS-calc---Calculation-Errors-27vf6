@@ -1,0 +1,5 @@
+To fix the issue, ensure that all units within a `calc()` expression are consistent.  If you're subtracting a pixel value from a percentage, ensure the parent element has a defined width.  It is generally advisable to avoid mixing percentage and pixel values.   If you must mix units, ensure that the context allows for a proper mathematical operation between different unit types.
+
+For example, instead of `calc(100% - 10px)`, consider using `calc(100vw - 10px)` to calculate using the viewport width or defining a specific width for the parent container.
+
+To correct inconsistent unit mixing, resolve units to a common type before calculation within `calc()`.  For example, convert pixels to ems or percentages to pixels for better compatibility.
