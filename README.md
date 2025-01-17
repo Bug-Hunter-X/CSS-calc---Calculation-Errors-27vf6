@@ -1,0 +1,1 @@
+This repository demonstrates a common issue with the CSS `calc()` function: unexpected results due to improper usage and inconsistent units.  The `bug.css` file shows the erroneous code, while `bugSolution.css` provides the corrected version.  Understanding proper `calc()` usage is crucial for creating responsive and predictable layouts.
